@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+
+</head>
+<body>
+    <h1 align="center">Analysis of a client's status</h1>
+    <h3 align="center">Default or not Default</h3>
+    <div align="center">
+
+<form action="{{ url_for('render_results')}}" method="post">
+    Enter the ID of the client: <input type="text" name="SK_ID_CURR"><br>
+    <input type="submit" value="Explain results">
+<form>
+</body>
+</html>
