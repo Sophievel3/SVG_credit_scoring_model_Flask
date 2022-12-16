@@ -7,12 +7,12 @@ SVG_credit_scoring_model
 
 
 Les URL de l'application Flask uploadée sur le cloud avec Heroku sont:
-- https://svg-crsm-flask.herokuapp.com/  --> page initiale ("dashboard fait avec Flask").
-- https://svg-crsm-flask.herokuapp.com/app/id  --> Liste des ID de tous les clients.
-- https://svg-crsm-flask.herokuapp.com/app/client/?SK_ID_CURR=XXXXXX  --> Data du client choisi (ici: le client XXXXXX).**
-- https://svg-crsm-flask.herokuapp.com/app/scoring_cust/?SK_ID_CURR=XXXXXX  --> Score du client choisi (ici: le client XXXXXX).**
-- https://svg-crsm-flask.herokuapp.com/app/feat_imp_global  --> Features Importances Globales du modèle de score.
-- https://svg-crsm-flask.herokuapp.com/app/feat_imp_local/?SK_ID_CURR=XXXXXX --> Features Importances Locales pour le client choisi (ici: le client XXXXXX).**
+- https://svg-crsm-flask2.herokuapp.com/app/feat_imp_global  --> page initiale ("dashboard fait avec Flask").
+- https://svg-crsm-flask2.herokuapp.com/app/id  --> Liste des ID de tous les clients.
+- https://svg-crsm-flask2.herokuapp.com/app/client/?SK_ID_CURR=XXXXXX  --> Data du client choisi (ici: le client XXXXXX).**
+- https://svg-crsm-flask2.herokuapp.com/app/scoring_cust/?SK_ID_CURR=XXXXXX  --> Score du client choisi (ici: le client XXXXXX).**
+- https://svg-crsm-flask2.herokuapp.com/app/feat_imp_global  --> Features Importances Globales du modèle de score.
+- https://svg-crsm-flask2.herokuapp.com/app/feat_imp_local/?SK_ID_CURR=XXXXXX --> Features Importances Locales pour le client choisi (ici: le client XXXXXX).**
 
 (**) Ne marchent pas sur le cloud à cause des problèmes de temps de calcul de plus de 30s avec Heroku.
 
